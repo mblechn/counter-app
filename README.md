@@ -1,1 +1,21 @@
 # counter-app
+
+- install newest version of node on mac from nodejs
+- install visual studio code
+- instal 'simple react snippets' and 'Prettier - Code formatter' from within vs code
+- in code -> preferences -> settings in vs code
+  - under user -> text editor -> formatter ... turn on format on save
+- restart vs code
+- `cd ~/Dropbox`
+- `npx create-react-app counter-app`
+- `cd counter-app`
+- `npm start`
+  - ctrl-c to stop
+- `npm i bootstrap`
+- `npm i font-awesome`
+- add `import 'bootstrap/dist/css/bootstrap.css';` to index.js
+- add `import 'font-awesome/css/font-awesome.css';` to index.js
+- create a 'components' folder under src folder
+- create conter.jsx file within components
+- add import statement using `imrc` followed by tab
+- use `cc` tab to create a class and then type `counter` as name with double cursor active ... esc to stop double cursor
